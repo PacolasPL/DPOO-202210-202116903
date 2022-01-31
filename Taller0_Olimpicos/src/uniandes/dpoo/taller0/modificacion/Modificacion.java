@@ -14,7 +14,7 @@ public class Modificacion {
 		Map<String, Integer> pai = calc.paisConMasMedallistas();
 		for (String nombre : pai.keySet())
 		{
-			System.out.println(nombre );
+			System.out.println("El pais que mas medallas tiene es " + nombre + " con " + pai.get(nombre) + " medallas.");
 		}
 	
 	}
